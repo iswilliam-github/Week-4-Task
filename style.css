@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/pexels-obi-onyeador-1787470-13009437.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+
+
+  font-family: "Red Hat Display", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+width: 60%;
+background-color: rgba(255, 255, 255, 0.199);
+border-radius: 10px;
+padding: 2rem;
+}
+
+textarea{
+    width: 50%;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+
+#yes{
+    margin-left: 1%;
+}
+#no{
+    margin-left: 2%;
+}
+#maybe{
+    margin-left: 2.5%;
+}
+#age{
+    margin-left: 2%;
+    height: 5vh;
+}
+#email{
+    height: 5vh;
+}
+#name{
+    height: 5vh;
+}
+#description{
+    margin-left: 2.5%;
+    height: 5vh;
+}
+label{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+h1{
+    color: rgb(223, 211, 211);
+}
+button{
+    width: 50%;
+    height: 7vh;
+    background-color: rgba(105, 105, 105, 0.342);
+    margin-left: 25%;
+    cursor: pointer;
+    border-radius: 25px;
+    border: solid 1px ;
+}
+button:hover{
+    
+   color: black;
+   background-color: whitesmoke;
+    
+}
